@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, rgb(10, 10, 10), rgb(8, 8, 8));
+    padding: 0 !important;
+}
+.navbar-nav{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: white;
+    font-weight: 600;
+    position: center;
+    text-align: center;
+}
+/*--------------------------------- banner--------------------------------------*/
+#banner{
+    background-image: url(OIP.jpeg) ;
+    min-height: 40vh;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+
+}
+.hii{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-left:4%;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+.CH{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left:4%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.demo{
+    font-size: 22px;
+    font-weight: 200;
+    margin-left:4%;
+    margin-top: 5%;
+    color: rgb(16, 188, 231);
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: yellowgreen;
+    color: rgb(255, 0, 0);
+    margin-bottom: 1px;
+    border: 1px solid #fff;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-left: 5%;
+    padding: 5px 30px;
+}
+.button:hover
+{
+    border: 1px solid rgb(198, 6, 247);
+    background: rgb(36, 231, 53);
+}
+.img-fluid{
+    text-align: right;
+    height: 300px;
+    width: 200px;
+    margin-top: 5%;
+    margin-left: 60%;
+}
+/*------------------------SKILLS SECTION-----------------------------*/
+#skills{
+    padding: 80px 0;
+    background: rgb(37, 34, 34);
+}
+.Skill-img{
+    width: 100px;
+    margin-top: 20px;
+}
+.skills
+{
+    padding: 20px;
+}
+.skills h4{
+    padding: 5px;
+    margin-top: 25px;
+    color: tomato;
+    font-weight: bold;
+    font-style: unset;
+
+}
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-left:4%;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(246, 250, 6);
+}
+.title::before{
+    content: '';
+    background: rgb(255, 255, 255);
+    height: 3px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(70px);
+}
+.title::after{
+    content: '';
+    background: rgb(255, 255, 255);
+    height: 5px;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+    transform: translateY(18px);
+}
+.row{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.detail{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3px;
+    margin-left: 5%;
+    color: rgb(145, 241, 237);
+}
+
+
+/*---------------------------------------------------About Us---------------------------------------*/
+#about{
+    background: rgb(14, 14, 13);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}.points{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 6%;
+}
+.about ul li
+{
+      font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3px;
+    margin-left: 5%;
+    color: rgb(145, 241, 237);
+}
+.image{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+/*-------------------------------------------BLOGS------------------------------------------------*/
+#blog{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background: rgb(14, 13, 13);
+}
+.blogging{
+    color: magenta;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.blogging::before{
+    content: '';
+    background: rgb(255, 255, 255);
+    height: 3px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(50px);
+}
+.blogging::after{
+    content: '';
+    background: rgb(255, 255, 255);
+    height: 5px;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+    transform: translateY(4px);
+}
+.blg{
+    color: yellowgreen;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.para{
+    color: white;
+}
+/*-----------------------------------------------CONTACT US---------------------------------------------------------*/
+#social-media{
+      background: black;
+      padding: 100px 0;
+
+}
+.social img{
+    width: 60px;
+    transition: .5s;
+}
+.social a:hover img{
+    transform: translateY(-10px);
+}
+.contact{ 
+    color: rgb(6, 117, 6);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.contact::before{
+    content: '';
+    background: rgb(255, 255, 255);
+    height: 3px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(50px);
+}
+.contact::after{
+    content: '';
+    background: rgb(255, 255, 255);
+    height: 5px;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+    transform: translateY(4px);
+}
+.sm{
+    color: blanchedalmond;
+}
+/*----------------------------------------------------------FOOTER SECTION--------------------------------------------------------------------------*/
+#footer{
+background: black;
+}
+.f-image{
+    width: 100%;
+    color: #000;
+}
